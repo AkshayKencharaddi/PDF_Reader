@@ -4,8 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import fitz  # PyMuPDF
 import os
-from langchain_community.embeddings import FakeEmbeddings  # Corrected import
-from langchain_community.vectorstores import FAISS  # Corrected import
+from langchain_community.embeddings import FakeEmbeddings  
+from langchain_community.vectorstores import FAISS  
 from transformers import pipeline  
 
 app = FastAPI()
